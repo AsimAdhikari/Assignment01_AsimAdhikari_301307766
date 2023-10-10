@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background-color: #343a40; /* Darker background color */
+        }
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff; /* Color of the hamburger icon */
+        }
+        .navbar-dark .navbar-toggler {
+            border-color: #fff; /* Border color of the hamburger icon */
+        }
+        .navbar-dark .navbar-toggler:hover {
+            background-color: #fff; /* Background color of the hamburger icon on hover */
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff; /* Text color of navigation links */
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #00bcd4; /* Text color of navigation links on hover */
+        }
+        .jumbotron {
+            background-image: url('your-jumbotron-background-image.jpg'); /* Replace 'your-jumbotron-background-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: darkcyan; /* Text color on the jumbotron background */
+            padding: 100px 0;
+        }
+        .jumbotron h1 {
+            font-size: 3rem;
+        }
+        .jumbotron p {
+            font-size: 1.5rem;
+        }
+        .background-image {
+            background-image: url('/HomePageBackground.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="background-image">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Asim Adhikari</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/aboutMe">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contacts">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <img src="/images/IMG-1653.jpg" alt="Your Name" class="img-fluid rounded-circle" style="width: 200px;">
+        <h1>Hi, I'm Asim, a Developer</h1>
+        <p>Welcome to my portfolio website
+        <br> Click the button to learn more about me
+        </p>
+
+        <!-- "Learn More" button leading to the "About Me" page -->
+        <a href="/aboutMe" class="btn btn-primary">Learn More</a>
+    </div>
+
+ 
+
+    <footer class="bg-dark text-light text-center py-2">
+        &copy; 2023 Asim Adhiakri
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
